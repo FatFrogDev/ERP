@@ -1,6 +1,6 @@
 package globant.example.erp;
 
-public class Nurse {
+public class Nurse extends  HealthProfessional {
     private Position position;
     private String speciality;
 }

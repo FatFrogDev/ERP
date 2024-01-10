@@ -2,8 +2,8 @@ package globant.example.erp;
 
 import java.time.LocalDateTime;
 
-public class Appointment {
+public class Appointment extends MedicalEvent{
     private String speciality;
-    private LocalDateTime attendace;
-    private boolean asisted;
+    private LocalDateTime attendance;
+    private boolean assisted;
 }
