@@ -1,5 +1,4 @@
 package globant.example.erp;
-
 import java.util.Set;
 
 public class Patient extends User{
